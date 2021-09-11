@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A little URL shortener of your own.",
   "main": "gulpfile.js",
+  "homepage": "https://acea.tk",
   "scripts": {
     "start": "gulp build & gulp watch & gulp serve",
     "build": "gulp build & yarn run build:functions",
+    "shorten": "netlify-shortener",
     "build:functions": "netlify-lambda build src/lambda"
   },
   "keywords": [],
