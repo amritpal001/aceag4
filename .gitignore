@@ -1,0 +1,4 @@
+_redirects
+node_modules
+dist
+functions
